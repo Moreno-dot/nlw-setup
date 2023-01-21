@@ -32,4 +32,4 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 O Habits é um app para organização e planejamento de rotina!
 
-- [Acesse o projeto finalizado, online](--)
+- [Visite o projeto online](https://moreno-dot.github.io/nlw-setup/)

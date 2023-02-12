@@ -56,6 +56,13 @@ form{
     width: fit-content;
 }
 
+#add-habit-form{
+    display: flex;
+    padding: 182px 48px 48px;
+    position: relative;
+    width: fit-content;
+}
+
 .habits{
     margin-top: 56px;
     display: flex;
@@ -123,7 +130,7 @@ input:checked{
 /* Firefox */
 * {
     scrollbar-width: thin;
-    scrollbar-color: blue orange;
+    scrollbar-color: #A5DEF1 #233142;
   }
   
   /* Chrome, Edge, & Safari */
@@ -140,3 +147,38 @@ input:checked{
     border-radius: 20px;
     border: 3px solid #233142;
   }
+
+  #habit-select{
+    height: 50px;
+    width: 200px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #A5DEF1;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: transparent;
+    color: white;
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 20px;
+    line-height: 125%;
+    text-align: center;
+    display: flex;
+  }
+
+  #habit-select:focus{
+    outline-color: transparent;
+    outline-style: none;
+  }
+
+  #habit-select option{
+  background-color: #233142;
+  text-align: left;
+
+  }
+  
+  #habit-select option:hover {
+    background-color: red;
+}
+
+    
